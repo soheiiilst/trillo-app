@@ -1,9 +1,13 @@
 import React from 'react';
 
+import Header from './components/Header';
+import Content from './components/Content';
+
 function App() {
   return (
     <div className="app">
-      <h1>Trillo</h1>
+      <Header />
+      <Content />
     </div>
   );
 }
