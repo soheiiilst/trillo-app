@@ -1,10 +1,16 @@
 import React from 'react'
 
+import SideNav from './SideNav';
+
 function Sidebar() {
   return (
-    <div className='sidebar'>
-      SIDEBAR
-    </div>
+    <nav className='sidebar'>
+      <SideNav />
+
+      <div className="legal">
+        &copy; {new Date().getFullYear()} by trillo. All right reserved.
+      </div>
+    </nav>
   )
 }
 

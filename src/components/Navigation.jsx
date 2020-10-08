@@ -1,21 +1,17 @@
 import React from 'react'
 
-import sprite from '../assets/sprite.svg'
+import SVGIcon from './SVGIcon';
 
 function Navigation() {
   return (
     <nav className='user-nav'>
       <div className="user-nav__icon-box">
-        <svg className='user-nav__icon'>
-          <use xlinkHref={`${sprite}#icon-bookmark`} />
-        </svg>
+        <SVGIcon cName="user-nav__icon" iconName="icon-bookmark" />
         <span className='user-nav__notification'>7</span>
       </div>
 
       <div className="user-nav__icon-box">
-        <svg className='user-nav__icon'>
-          <use xlinkHref={`${sprite}#icon-chat`} />
-        </svg>
+        <SVGIcon cName="user-nav__icon" iconName="icon-chat" />
         <span className='user-nav__notification'>13</span>
       </div>
       <div className="user-nav__user">
@@ -27,3 +23,7 @@ function Navigation() {
 }
 
 export default Navigation
+
+
+
+

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import sprite from '../assets/sprite.svg';
+import SVGIcon from './SVGIcon';
 
 function Search() {
   const handleSubmit = e => e.preventDefault();
@@ -13,9 +13,7 @@ function Search() {
         placeholder='Search hotels'
       />
       <button className='search__button'>
-        <svg className='search__icon'>
-          <use xlinkHref={`${sprite}#icon-magnifying-glass`} />
-        </svg>
+        <SVGIcon cName="search__icon" iconName="icon-magnifying-glass" />
       </button>
     </form>
   );
