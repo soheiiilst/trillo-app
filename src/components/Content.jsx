@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 import Sidebar from './Sidebar';
 import HotelView from './HotelView';
@@ -9,7 +9,7 @@ function Content() {
       <Sidebar />
       <HotelView />
     </div>
-  )
+  );
 }
 
-export default Content
+export default Content;

@@ -1,11 +1,15 @@
-import React from 'react'
+import React from 'react';
+
+import Gallery from './Gallery';
+import Overview from './Overview';
 
 function HotelView() {
   return (
     <main className='hotel-view'>
-      HOTEL VIEW
+      <Gallery />
+      <Overview />
     </main>
-  )
+  );
 }
 
-export default HotelView
+export default HotelView;
