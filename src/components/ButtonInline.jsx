@@ -2,7 +2,7 @@ import React from 'react'
 
 function ButtonInline({cName, children}) {
   return (
-    <button className={cName}>
+    <button className='btn-inline'>
       {children}
     </button>
   )

@@ -18,7 +18,7 @@ function Overview() {
 
       <div className='overview__location'>
         <SVGIcon cName='overview__icon-location' iconName='icon-location-pin' />
-        <ButtonInline cName='btn-inline'>Albufeira, Portugal</ButtonInline>
+        <ButtonInline>Albufeira, Portugal</ButtonInline>
       </div>
 
       <div className='overview__rating'>
