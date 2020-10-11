@@ -3,6 +3,7 @@ import React from 'react';
 import Gallery from './Gallery';
 import Overview from './Overview';
 import Detail from './Detail';
+import CallToAction from './CallToAction';
 
 function HotelView() {
   return (
@@ -10,6 +11,7 @@ function HotelView() {
       <Gallery />
       <Overview />
       <Detail />
+      <CallToAction />
     </main>
   );
 }
